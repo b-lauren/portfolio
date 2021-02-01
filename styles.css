@@ -25,9 +25,20 @@ h1 span {
   color: #9974BA;
 }
 
+.lead {
+  color: #9974BA;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 30px 0;
+  /*flex: 0 100%;*/
+}
+
 /*Navigation*/
 
 nav {
+  /*position: fixed;*/
+  /*width: 100%;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -67,6 +78,10 @@ nav {
   text-transform: uppercase;
 }
 
+#contact:hover {
+  opacity: 0.9;
+}
+
 .burger {
   display: none;
 }
@@ -80,6 +95,19 @@ nav {
 }
 
 /*Navigation end*/
+
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+.home div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .home p {
   margin-bottom: 2.5rem;
@@ -102,6 +130,65 @@ nav {
   color: #fff;
   transition: background-color 0.25s
               ease 0s, color 0.25s ease 0s;
+}
+
+.avatar {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  /*padding: 10px;*/
+  /*border: 2px solid #000;*/
+}
+
+.about {
+  background-color: #242424;
+  height: 300px;
+}
+
+.projects {
+  height: 300px;
+}
+
+.grid-container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-column-gap: 4rem;
+  margin-bottom: 60px;
+}
+
+.project-card {
+  background-color: #9974BA;
+  color: #fff;
+  padding: 8px;
+}
+
+.text {
+  border: 1px solid #fff;
+  padding: 30px;
+}
+
+.project-card a {
+  border: 0.1rem solid #000;
+  background: transparent;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  border-radius: 3rem;
+  color: #000;
+}
+
+.project-card p {
+  margin-bottom: 20px;
+}
+
+.black-title {
+  margin-top: 18px;
+  text-align: center;
 }
 
 footer {
@@ -177,6 +264,16 @@ footer a {
   #contact {
     background-color: #fff;
     color: #9974BA;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home div {
+    width: 100%;
+    padding: 50px;
+  }
+  h1 {
+    text-align: center;
   }
 }
 
