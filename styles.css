@@ -132,7 +132,6 @@ nav {
 
 .arrow {
   font-size: 2.5rem;
-  margin-top: 70px;
   color: #9974BA;
   overflow: hidden;
   transition-duration: 0.9s;
@@ -141,6 +140,10 @@ nav {
 
 .arrow:hover {
   transform: rotate(360deg);
+}
+
+.down-arrow {
+  margin-top: 70px;
 }
 
 
@@ -191,17 +194,24 @@ nav {
 }
 
 
-
 /*Footer*/
 
 footer {
   background-color: #000;
-  min-height: 35vh;
+  min-height: 42vh;
   color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.top-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -28px;
 }
 
 footer span {
@@ -209,9 +219,7 @@ footer span {
   color: #fff;
   flex: 0 0 100%;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  margin-bottom: -14px;
 }
 
 .social {
