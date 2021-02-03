@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   background-color: #F7F7F7;
+  /*overflow-x: hidden;*/
 }
 
 .page-container {
@@ -16,6 +17,7 @@ body {
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   overflow-x: hidden;
+  position: relative
 }
 
 h1 {
