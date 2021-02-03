@@ -11,7 +11,7 @@ const navSlide = () => {
       if (link.style.animation) {
         link.style.animation = '';
       } else {
-        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 4 + 0.5}s`;
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
       }
     });
     // burger animation
@@ -21,8 +21,8 @@ const navSlide = () => {
 
 navSlide();
 
-navLinks.forEach('click', )
+// navLinks.forEach('click', )
 
-navLinks.addEventListener("click", function() {
-  document.getElementById("demo").innerHTML = "Hello World";
-});
+// navLinks.addEventListener("click", function() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+// });

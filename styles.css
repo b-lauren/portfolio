@@ -276,10 +276,10 @@ footer a {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 60vh;
     top: 8vh;
     background-color: #9974BA;
-    font-size: 25px;
+    /*font-size: 40px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
