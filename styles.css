@@ -125,6 +125,7 @@ nav {
   text-decoration: none;
   letter-spacing: 0.1rem;
   border-radius: 3rem;
+  color: #9974BA;
 }
 
 .purple-button:hover {
@@ -276,7 +277,7 @@ footer a {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 80vh;
+    height: 88vh;
     top: 8vh;
     background-color: #9974BA;
     /*font-size: 40px;*/
