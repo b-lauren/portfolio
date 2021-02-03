@@ -5,21 +5,17 @@
   scroll-behavior: smooth;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   background-color: #F7F7F7;
-  overflow-x: hidden;
 }
 
 .page-container {
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -293,11 +289,10 @@ footer a {
     opacity: 0;
   }
 
-  .nav-active {
+/*  .nav-active {
     transform: translateX(0%);
-    position: fixed;
   }
-
+*/
   .burger {
     display: block;
     cursor: pointer;
@@ -338,6 +333,11 @@ footer a {
     margin-top: 28px;
   }
 }
+
+.nav-active {
+    transform: translateX(0%);
+}
+
 
 /*Keyframes*/
 /*Navbar*/
