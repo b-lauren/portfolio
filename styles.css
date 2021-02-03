@@ -347,6 +347,16 @@ footer a {
   h1 {
     margin-bottom: 0;
   }
+/*  .home {
+    padding-bottom: 50px;
+  }*/
+
+  .about {
+    height: 77vh;
+  }
+  .about p {
+    margin: 16px 43px 0 50px;
+  }
 }
 
 
