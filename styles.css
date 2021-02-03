@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -32,7 +33,7 @@ h1 span {
   text-align: center;
   font-size: 3rem;
   font-weight: 400;
-  margin: 30px 0;
+  margin: 87px 0;
   /*flex: 0 100%;*/
 }
 
@@ -225,6 +226,13 @@ footer span {
   text-align: center;
 }
 
+footer p {
+  flex: 0 0 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
+
 .social {
   background-color: #9974BA;
   border-radius: 50%;
@@ -268,6 +276,7 @@ footer a {
     height: 92vh;
     top: 8vh;
     background-color: #9974BA;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,10 +288,15 @@ footer a {
     opacity: 0;
   }
 
+  .nav-active {
+  transform: translateX(0%);
+  }
+
   .burger {
     display: block;
     cursor: pointer;
   }
+
   #contact {
     background-color: #fff;
     color: #9974BA;
@@ -317,10 +331,6 @@ footer a {
     font-size: 1rem;
     margin-top: 28px;
   }
-}
-
-.nav-active {
-  transform: translateX(0%);
 }
 
 /*Keyframes*/
