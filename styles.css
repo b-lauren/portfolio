@@ -24,7 +24,6 @@ h1 {
   font-size: 6rem;
   margin-bottom: 1.5rem;
   color: #070D0D;
-  /*text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);*/
 }
 
 h1 span {
@@ -42,8 +41,6 @@ h1 span {
 /*Navigation*/
 
 nav {
-  /*position: fixed;*/
-  /*width: 100%;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
