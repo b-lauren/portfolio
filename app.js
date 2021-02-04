@@ -22,8 +22,8 @@ const navSlide = () => {
 navSlide();
 
 
-navLinks.forEach(link => link.addEventListener('click', toggleMenu));
+// navLinks.forEach(link => link.addEventListener('click', toggleMenu));
 
-function toggleMenu() {
-    nav.classList.remove('nav-active');
-}
+// function toggleMenu() {
+//     nav.classList.remove('nav-active');
+// }
