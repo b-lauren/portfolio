@@ -58,11 +58,15 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 24%;
 }
 
 .nav-links li {
   list-style: none;
+}
+
+.nav-links li:hover {
+  opacity: 0.9;
 }
 
 .nav-links a {
@@ -77,11 +81,7 @@ nav {
   color: #fff;
   border-radius: 2.3rem;
   padding: 10px 24px;
-  text-transform: uppercase;
-}
-
-#contact:hover {
-  opacity: 0.9;
+  /*text-transform: uppercase;*/
 }
 
 .burger {
@@ -404,16 +404,12 @@ footer a {
     transform: translateX(0%);
 }
 
-/*specific to iphone x*/
+/*smaller screens*/
 
 @media screen and (max-width: 414px) {
   h1 {
     margin-bottom: 0;
   }
-/*  .home {
-    padding-bottom: 50px;
-  }*/
-
   .about {
     height: 80vh;
   }
@@ -423,6 +419,12 @@ footer a {
 
   .project-card {
     width: 280px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about {
+    height: 108vh;
   }
 }
 
