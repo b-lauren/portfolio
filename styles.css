@@ -316,6 +316,9 @@ footer a {
   .nav-links {
     width: 40%;
   }
+  .about {
+    height: 33vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
