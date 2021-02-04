@@ -103,7 +103,7 @@ nav {
 
 .home {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -378,6 +378,7 @@ footer a {
   .avatar {
     height: 180px;
     width: 180px;
+    margin-bottom: 20px;
   }
 
   .about-content {
@@ -412,7 +413,7 @@ footer a {
   }*/
 
   .about {
-    height: 77vh;
+    height: 80vh;
   }
   .about p {
     margin: 16px 40px 0 50px;
